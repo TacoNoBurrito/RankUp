@@ -3,3 +3,4 @@ author: Taco
 main: Taco\RU\Main
 api: "3.0.0"
 version: 1.0.0
+depend: ["EconomyAPI"]

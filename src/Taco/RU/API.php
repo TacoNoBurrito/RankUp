@@ -54,6 +54,7 @@ class API {
 			if ($next) return (int)$i["price"];
 			if ($rank == $current) $next = true;
 		}
+		return 0;
 	}
 
 	/**

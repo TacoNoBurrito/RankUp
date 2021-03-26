@@ -1,0 +1,33 @@
+#RankUp Configuration File
+
+#You may use the tag {new-rank} for the rank the player has ranked up to
+rankup-success: "You have successfully ranked up to {new-rank}!"
+
+#You may use the tag {needs-money} for the money the player needs to rank up
+#You may use the tag {new-rank} for the players next rank
+rankup-fail: "You do not have enough money to rank up to {new-rank}. You need ${needs-money} to rank up!"
+
+#This message will be send to the player when they are already the max rank
+#And they try to rankup
+rankup-max: "You are at the max rank!"
+
+#This is the rank the player will be given when they join for the first time
+default-rank: "a"
+
+ranks: #Where you will define the ranks the players will rank up to
+  a: #The ranks name
+    price: 1000 #The price the rank will cost
+    commands: #You can use the tag {player} for the players name
+      - "tell {player} you ranked up to a!"
+  b:
+    price: 2000
+    commands:
+      - "tell {player} you ranked up to b!"
+  c:
+    price: 3000
+    commands:
+      - "tell {player} you ranked up to c!"
+  d:
+    price: 4000
+    commands:
+      - "tell {player} you ranked up to d!"

@@ -1,6 +1,6 @@
 # Rankup
 
-Let your players ascent through ranks in a maybe? Factions server? Or a prisons server, you never know!
+Let your players ascend through ranks in a maybe? Factions server? Or a prisons server, you never know!
 
  - This plugin uses EconomyAPI
  - Please report errors to the issues panel (if ur on poggit, this is in github)

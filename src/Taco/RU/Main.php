@@ -44,7 +44,7 @@ class Main extends PluginBase implements Listener  {
 	}
 
 	/**
-	 * @return static
+	 * @return self
 	 */
 	public static function getInstance() : self {
 		return self::$instance;

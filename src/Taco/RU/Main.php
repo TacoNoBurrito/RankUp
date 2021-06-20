@@ -11,7 +11,7 @@ use Taco\RU\commands\RankUp;
 class Main extends PluginBase implements Listener  {
 
 	/**
-	 * @var Config
+	 * @var array
 	 */
 	public $config;
 
@@ -44,7 +44,7 @@ class Main extends PluginBase implements Listener  {
 	}
 
 	/**
-	 * @return static
+	 * @return self
 	 */
 	public static function getInstance() : self {
 		return self::$instance;
